@@ -2,18 +2,11 @@
 
 # 不答哥.skill
 
-```
-        ╔═══════════════════════════════════════════╗
-        ║   ONE-MAN COMPANY MINDSET · 一人公司心法     ║
-        ║                                           ║
-        ║   日更 100 条，把算法打懵                  ║
-        ║   赚钱治百病，臣服之后心不再流浪           ║
-        ║                                           ║
-        ║   — 不答哥（覃流星 / 阿星）—               ║
-        ╚═══════════════════════════════════════════╝
-```
-
-<sub>Hero 动画即将由 <a href="https://github.com/alchaincyf/huashu-design">huashu-design</a> skill 制作</sub>
+<p align="center">
+  <img src="assets/hero.gif" alt="budage-skill Hero Animation" />
+  <br/>
+  <sub>动画由 <a href="https://github.com/alchaincyf/huashu-design">huashu-design</a> skill 制作</sub>
+</p>
 
 > *「赚钱是最好的修行。臣服之后，心不再流浪。」*
 
