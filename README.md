@@ -172,7 +172,7 @@ IP落地工作流与公众号写作工作流。
 ## 安装
 
 ```bash
-bash -lc 'set -e; for d in "$HOME/.codex/skills" "$HOME/.claude/skills" "$HOME/.workbuddy/skills"; do mkdir -p "$d"; t="$d/budage-skill"; if [ -d "$t/.git" ]; then git -C "$t" pull --ff-only; else git clone --depth 1 https://github.com/David0936/budage-skill.git "$t"; fi; done'
+bash -lc 'set -e; for d in "$HOME/.codex/skills" "$HOME/.claude/skills" "$HOME/.workbuddy/skills"; do mkdir -p "$d"; t="$d/budage-skill"; if [ -d "$t/.git" ]; then git -C "$t" pull --ff-only; else [ ! -e "$t" ] || mv "$t" "$t.backup-$(date +%Y%m%d%H%M%S)"; git clone --depth 1 https://github.com/David0936/budage-skill.git "$t"; fi; done'
 ```
 
 这一行会自动安装或更新到 Codex、Claude Code 和 WorkBuddy 的用户级 Skills 目录。安装后重开对话，输入：
