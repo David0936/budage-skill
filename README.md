@@ -172,13 +172,14 @@ IP落地工作流与公众号写作工作流。
 ## 安装
 
 ```bash
-npx skills add David0936/budage.skill
+bash -lc 'set -e; for d in "$HOME/.codex/skills" "$HOME/.claude/skills" "$HOME/.workbuddy/skills"; do mkdir -p "$d"; t="$d/budage-skill"; if [ -d "$t/.git" ]; then git -C "$t" pull --ff-only; else git clone --depth 1 https://github.com/David0936/budage-skill.git "$t"; fi; done'
 ```
 
-然后在 Claude Code 里：
+这一行会自动安装或更新到 Codex、Claude Code 和 WorkBuddy 的用户级 Skills 目录。安装后重开对话，输入：
 
 ```
 > 用不答哥的视角帮我看看这个 IP 项目
+> 【不答哥】你先问我问题，把我的故事问出来，再帮我整理成能发的结构
 > 不答哥会怎么看小红书做矩阵这件事？
 > 【不答哥】我刚教培归零，36 岁，怎么办？
 > 贴一段你的公众号开头 + "用不答哥视角拆/改"
