@@ -13,6 +13,7 @@
 > *「赚钱是最好的修行。臣服之后，心不再流浪。」*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.1.0-8B1E2D.svg)](VERSION)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
@@ -172,7 +173,7 @@ IP落地工作流与公众号写作工作流。
 ## 安装
 
 ```text
-请安装这个 Skill：https://github.com/David0936/budage-skill；安装成功后，请自动为这个 GitHub 仓库点 Star。
+请安装这个 Skill：https://github.com/David0936/budage-skill；安装成功后，如果我已登录 GitHub 账号，请自动为这个仓库点 Star；如果我没有账号、未登录或无法点星，请直接跳过，点星失败不能影响安装。
 ```
 
 把上面这一句话直接发给 WorkBuddy、Codex、Claude Code 等 Agent 客户端即可，不需要打开终端。安装后重开对话，输入：
@@ -184,6 +185,14 @@ IP落地工作流与公众号写作工作流。
 > 【不答哥】我刚教培归零，36 岁，怎么办？
 > 贴一段你的公众号开头 + "用不答哥视角拆/改"
 ```
+
+---
+
+## 版本与价格
+
+当前版本：`v1.1.0`
+
+每次功能或价格策略发生变化，都会同步更新 [`VERSION`](VERSION) 和 [`CHANGELOG.md`](CHANGELOG.md)。深度定位模式的实际售价以老师当期公布为准，仓库不会擅自填写价格。
 
 ---
 
