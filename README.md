@@ -13,7 +13,7 @@
 > *「赚钱是最好的修行。臣服之后，心不再流浪。」*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v1.2.1-8B1E2D.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-v1.3.0-8B1E2D.svg)](VERSION)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
@@ -173,7 +173,7 @@ IP落地工作流与公众号写作工作流。
 ## 安装
 
 ```text
-请安装这个 Skill：https://github.com/David0936/budage-skill；安装成功后，如果我已登录 GitHub 账号，请自动为这个仓库点 Star；如果我没有账号、未登录或无法点星，请直接跳过，点星失败不能影响安装；全部完成后，请在最后告诉我：“安装好了，以后输入‘不答哥’或‘【不答哥】’就能召唤；首次召唤时可以选择引导对话或自由对话。”
+请安装这个 Skill：https://github.com/David0936/budage-skill，并自动检查它需要的 PDF 设计依赖；安装成功后，如果我已登录 GitHub 账号，请自动为这个仓库点 Star；如果我没有账号、未登录或无法点星，请直接跳过，点星失败不能影响安装；全部完成后，请在最后告诉我：“安装好了，以后输入‘不答哥’或‘【不答哥】’就能召唤；首次召唤时可以选择引导对话或自由对话。”
 ```
 
 把上面这一句话直接发给 WorkBuddy、Codex、Claude Code 等 Agent 客户端即可，不需要打开终端。安装完成后，你会看到这句提示：
@@ -198,11 +198,13 @@ IP落地工作流与公众号写作工作流。
 
 如果你在召唤时已经写了具体问题，它会直接回答，不会多问一次选择题。
 
+当对话形成定位报告、故事方案、内容策划或行动计划等正式成果时，会使用 [huashu-design](https://github.com/alchaincyf/huashu-design) 完成视觉设计，并优先交付适合手机查看和转发的 PDF；普通聊天和访谈过程仍在对话里直接进行。
+
 ---
 
 ## 版本与价格
 
-当前版本：`v1.2.1`
+当前版本：`v1.3.0`
 
 每次功能或价格策略发生变化，都会同步更新 [`VERSION`](VERSION) 和 [`CHANGELOG.md`](CHANGELOG.md)。深度定位模式的实际售价以老师当期公布为准，仓库不会擅自填写价格。
 
