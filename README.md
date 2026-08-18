@@ -13,7 +13,7 @@
 > *「赚钱是最好的修行。臣服之后，心不再流浪。」*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v1.1.0-8B1E2D.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-v1.2.0-8B1E2D.svg)](VERSION)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
@@ -179,6 +179,7 @@ IP落地工作流与公众号写作工作流。
 把上面这一句话直接发给 WorkBuddy、Codex、Claude Code 等 Agent 客户端即可，不需要打开终端。安装后重开对话，输入：
 
 ```
+> 【不答哥】
 > 用不答哥的视角帮我看看这个 IP 项目
 > 【不答哥】你先问我问题，把我的故事问出来，再帮我整理成能发的结构
 > 不答哥会怎么看小红书做矩阵这件事？
@@ -186,11 +187,18 @@ IP落地工作流与公众号写作工作流。
 > 贴一段你的公众号开头 + "用不答哥视角拆/改"
 ```
 
+如果只输入「【不答哥】」，它会先让你选择：
+
+- `1｜引导对话`：它一次问一个简单问题，带你讲故事、理思路、找方向。
+- `2｜自由对话`：你直接提问，它按不答哥的视角回答。
+
+如果你在召唤时已经写了具体问题，它会直接回答，不会多问一次选择题。
+
 ---
 
 ## 版本与价格
 
-当前版本：`v1.1.0`
+当前版本：`v1.2.0`
 
 每次功能或价格策略发生变化，都会同步更新 [`VERSION`](VERSION) 和 [`CHANGELOG.md`](CHANGELOG.md)。深度定位模式的实际售价以老师当期公布为准，仓库不会擅自填写价格。
 
