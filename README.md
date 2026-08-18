@@ -13,7 +13,7 @@
 > *「赚钱是最好的修行。臣服之后，心不再流浪。」*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v1.3.0-8B1E2D.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-v1.4.0-8B1E2D.svg)](VERSION)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
@@ -198,13 +198,15 @@ IP落地工作流与公众号写作工作流。
 
 如果你在召唤时已经写了具体问题，它会直接回答，不会多问一次选择题。
 
+引导对话会显示简单进度，一次只问一个问题。你随时可以说「暂停」；它会生成一张续聊卡，下次说「继续不答哥访谈」即可接着聊。遇到“不知道怎么回答”时，它会给出几个简单选项，不要求你学习任何 AI 术语。
+
 当对话形成定位报告、故事方案、内容策划或行动计划等正式成果时，会使用 [huashu-design](https://github.com/alchaincyf/huashu-design) 完成视觉设计，并优先交付适合手机查看和转发的 PDF；普通聊天和访谈过程仍在对话里直接进行。
 
 ---
 
 ## 版本与价格
 
-当前版本：`v1.3.0`
+当前版本：`v1.4.0`
 
 每次功能或价格策略发生变化，都会同步更新 [`VERSION`](VERSION) 和 [`CHANGELOG.md`](CHANGELOG.md)。深度定位模式的实际售价以老师当期公布为准，仓库不会擅自填写价格。
 
